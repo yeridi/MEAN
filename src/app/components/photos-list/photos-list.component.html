@@ -1,0 +1,28 @@
+<div class="container">
+    <!-- <div class="row">
+        <div class="col-md-4 p-4" *ngFor="let photo of photos">
+            <div class="card card-photo" (click)="selectedCard(photo._id)">
+
+                <img [src]="'http://localhost:4000/' + photo.imagePath" class="img-card-top w-100">
+                <div class="card-body">
+                    <p>{{photo.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="each__product" *ngFor="let photo of photos">
+        <div class="card__each" (click)="selectedCard(photo._id)">
+            <img [src]="'http://localhost:4000/' + photo.imagePath" alt="">
+            <div class="more__info">
+                <h4>Name</h4>
+                <p>{{photo.title}}</p>
+                <h4>Description</h4>
+                <p class="ml-1">{{photo.description}}</p>
+            </div>
+            <div class="extra">
+                <p>TOUCH IN THE INFORMATION TO SEE MORE</p>
+            </div>
+        </div>
+    </div>
+    
+</div>

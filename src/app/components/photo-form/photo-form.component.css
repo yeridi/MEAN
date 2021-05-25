@@ -1,0 +1,11 @@
+.container{
+    margin-top: 5rem !important;
+}
+.container img{
+    width: 400px;
+    height: 330px;
+    margin-bottom: 1rem !important;
+}
+.container button{
+    background: #51c4d3 !important;
+}

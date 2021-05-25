@@ -1,0 +1,32 @@
+.container{
+    margin: 5rem auto;
+    width: 85% !important;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+.container img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 400px;
+}
+.container .info__change{
+    padding: 1rem;
+    margin-top: 4em;
+    width: 650px;
+    margin-right: 2rem;
+    float: right;
+}
+.image button{
+    width: 5%;
+    left: 0;
+    top:0;
+    position: absolute;
+    background: #132c33;
+}
+.info__change button{
+    margin-top: 1rem;
+    background: #51c4d3;
+}
